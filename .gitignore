@@ -1,12 +1,12 @@
 # Terraform
-.terraform/
-.terraform.lock.hcl
-*.tfstate
-*.tfstate.backup
-crash.log
-override.tf
-override.tf.json
-*tfvars
-*.tfvars.json
-.vscode/
+ops/infrastructure/.terraform/
+ops/infrastructure/.terraform.lock.hcl
+ops/infrastructure/*.tfstate
+ops/infrastructure/*.tfstate.backup
+ops/infrastructure/crash.log
+ops/infrastructure/override.tf
+ops/infrastructure/override.tf.json
+ops/infrastructure/*.tfvars
+ops/infrastructure/*.tfvars.json
 ops/infrastructure/terraform.tfstate
+.vscode/
